@@ -95,12 +95,17 @@
     padding-right: 6%;
 }
 
+.newsletter__section > p {
+    font-size: 22px;
+    margin-top: 18px;
+}
+
 .newsletter__section > button {
-    height: 65px;
-    width: 320px;
+    height: 70px;
+    width: 300px;
     color: #FFFFFF;
     background-color: #F58A68;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     font-weight: 900;
     font-size: 20px;
@@ -143,9 +148,13 @@
 }
 
 .newsletter__socialicon {
-    height: 60px;
-    height: 60px;
+    height: 50px;
+    height: 50px;
     object-fit: contain;
-    margin: 0 10px;
+    margin: 0 30px;
     filter: invert(100%);
+}
+
+.newsletter__bottomlogo {
+    height: 120px;
 }
